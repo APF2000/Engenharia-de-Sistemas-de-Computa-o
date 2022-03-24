@@ -59,7 +59,7 @@
 %%%% O arquivo modelosCAP.tex possui as definições para ciação do estilo de capítulo (fonte de título, barras horizontais, etc.)
 % ele não gera texto de saída, é um arquivo de configuração somente
 %
-\input{modelosCAP}
+\input{0.1-modelosCAP}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIM DO PREAMBULO%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
@@ -81,15 +81,15 @@
 
 %%%%%%%%%%%%%Arquivos .tex com os elementos pré-textuais
 %
-\include{capa}
-\include{folharosto}
-\include{folhadeaprovacao}
-\include{dedicatoria}
-\include{agradecimentos}
-\include{epigrafe}
+\include{1-capa}
+\include{2-folharosto}
+\include{3-folhadeaprovacao}
+\include{4-dedicatoria}
+\include{5-agradecimentos}
+\include{6-epigrafe}
 \pagestyle{plain}%%%%% Utilizar ESTILO PLAIN AQUI%%%%%%%
-\include{resumo}
-\include{abstract}
+\include{7-resumo}
+\include{8-abstract}
 
 %%%Comandos para criação automática das listas
 %
@@ -100,11 +100,11 @@
 %%%Comandos para criar outras listas não suportadas pelo pacote ABNTex%%%
 %
 \pretextualchapter{Lista de Símbolos}
-\input{nomenclatura}
+\input{12-nomenclatura}
 \newpage
 
 \pretextualchapter{Lista de Abreviacoes}
-\input{abreviacoes}
+\input{13-abreviacoes}
 \newpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -125,11 +125,11 @@
 
 
 %%% Outros arquivos .tex. É acoselhável utilizar vários arquivos, pelo menos um por capítulo
-\include{introducao}
-\include{cap2}
-\include{cap3}
-\include{cap4}
-\include{cap5}
+\include{14-introducao}
+\include{15-cap2}
+\include{16-cap3}
+\include{17-cap4}
+\include{18-cap5}
 
 
 %%%% Estilo de citação ABNT e arquivo de bibitens (mybibliography.bib)
