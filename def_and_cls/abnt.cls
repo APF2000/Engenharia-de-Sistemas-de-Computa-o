@@ -30,7 +30,7 @@
 %   Maintainer    : Gerald Weber
 %
 \NeedsTeXFormat{LaTeX2e}%
-\input{cvs-id.def}
+\input{def_and_cls/cvs-id.def}
 \CVSExtract$Id: abnt.cls,v 1.31 2005/12/21 12:50:36 gweber Exp $
 \CVSClass{abnt}{\space Classe abnt (NBR6024, NBR6027, NBR6028, NBR14724)} %substitui \ProvidesPackage (replaces \ProvidesPackage)
 
@@ -47,9 +47,9 @@
 
 %packages from abntex
 %predefined abbreviations
-\RequirePackage{abntex-abrev}  %language specific abbreviations
-\RequirePackage{abntex-text}   %language specific text replacements
-\RequirePackage{abntex-default-design} 
+\RequirePackage{styles/abntex-abrev}  %language specific abbreviations
+\RequirePackage{styles/abntex-text}   %language specific text replacements
+\RequirePackage{styles/abntex-default-design} 
 %%%%%%%%%%%%%      OPTION DECLARATION      %%%%%%%%%%%%
 
 %% Page numbering scheme
@@ -170,8 +170,8 @@
 
 %Options which group options according to specific norms.
 
-\DeclareOption{nbr6027=1989}  {\input{nbr6027-1989.def}}
-\DeclareOption{nbr14724=2001} {\input{nbr14724-2001.def}}
+\DeclareOption{nbr6027=1989}  {\input{def_and_cls/nbr6027-1989.def}}
+\DeclareOption{nbr14724=2001} {\input{def_and_cls/nbr14724-2001.def}}
   
 %options which declare version specific behaviour,
 %default options expected for each version are declared here

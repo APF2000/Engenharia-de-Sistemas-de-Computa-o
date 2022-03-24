@@ -1,4 +1,4 @@
-%% $Id: nbr14724-2001.def,v 1.1 2004/07/12 09:47:55 gweber Exp $
+%% $Id: def_and_cls/nbr14724-2001.def,v 1.1 2004/07/12 09:47:55 gweber Exp $
 %% name of this file nbr14724-2001.def
 %% Copyright 2004 by the abnTeX group at http://abntex.codigolivre.org.br
 %%
@@ -6,7 +6,7 @@
 %%            http://www.latex-project.org/lppl.html
 %% You are free to modify this file under the LPPL.
 %%
-%% $Log: nbr14724-2001.def,v $
+%% $Log: def_and_cls/nbr14724-2001.def,v $
 %% Revision 1.1  2004/07/12 09:47:55  gweber
 %% new definition file
 %%
