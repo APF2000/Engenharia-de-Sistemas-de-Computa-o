@@ -8,7 +8,7 @@
 %%
 
 \NeedsTeXFormat{LaTeX2e}
-\input{cvs-id.def}
+\input{def_and_cls/cvs-id.def}
 \CVSExtract$Id: abntcite.sty,v 1.29 2005/11/14 09:05:40 gweber Exp $
 \CVSPackage{abntcite}{\space Chamadas de referencias no texto (NBR10520, NBR10522)} %substitui \ProvidesPackage (replaces \ProvidesPackage)
 
@@ -213,8 +213,8 @@
   }
   
 %default for this version
-\ExecuteOptions{abntex=0.9}
-\ProcessOptions
+% \ExecuteOptions{abntex=0.9}
+% \ProcessOptions
 
 % really foot?
 \ifthenelse{\boolean{ABCIfoot}\and\equal{\AbntCallType}{numeric}}
