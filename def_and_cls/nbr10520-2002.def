@@ -7,7 +7,7 @@
 %% You are free to modify this file under the LPPL.
 %%
 
-\input{cvs-id.def}
+\input{def_and_cls/cvs-id.def}
 \CVSExtract$Id: def_and_cls/nbr10520-2002.def,v 1.3 2005/06/22 17:11:29 gweber Exp $
 \CVSFile{nbr}{\space Definicoes para abntcite (NBR10520:2002)}
 
