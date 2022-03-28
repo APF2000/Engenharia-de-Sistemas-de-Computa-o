@@ -1238,19 +1238,19 @@ Para mais informacoes, leia o manual da classe.\MessageBreak%
 
 \let\listadefiguras\listoffigures\relax
 
-% ====  \listoftables  ====
-% Same comments in \listoffigures
-\renewcommand\listoftables{%
-  \ifthenelse{\boolean{@twocolumn}}%
-    {\setboolean{ABNTrestorecol}{true}\onecolumn}%
-    {\setboolean{ABNTrestorecol}{false}}%
-  \setchaptertype{listoftables}
-  \pretextualchapter{\listtablename}
-  \@starttoc{lot}%
-  \ifthenelse{\boolean{ABNTrestorecol}}{\twocolumn}{}%
-}%
+% % ====  \listoftables  ====
+% % Same comments in \listoffigures
+% \renewcommand\listoftables{%
+%   \ifthenelse{\boolean{@twocolumn}}%
+%     {\setboolean{ABNTrestorecol}{true}\onecolumn}%
+%     {\setboolean{ABNTrestorecol}{false}}%
+%   \setchaptertype{listoftables}
+%   \pretextualchapter{\listtablename}
+%   \@starttoc{lot}%
+%   \ifthenelse{\boolean{ABNTrestorecol}}{\twocolumn}{}%
+% }%
 
-\let\listadetabelas\listoftables\relax
+% \let\listadetabelas\listoftables\relax
 
 % ====  thebibliography  ====
 % Almost equal to old thebibliography, but without capital page marks
